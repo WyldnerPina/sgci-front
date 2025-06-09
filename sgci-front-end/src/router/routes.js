@@ -3,7 +3,10 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
+      { path: 'pessoas/form', component: () => import('pages/pessoas/CreateEditPessoa.vue') }, 
+      // adicionando nova rota para nova página path= caminho e import é pág q criamos vai estar em 
+      // http://localhost:9000/pessoas/form
+      { path: '', component: () => import('pages/IndexPage.vue') },
     ]
   },
 

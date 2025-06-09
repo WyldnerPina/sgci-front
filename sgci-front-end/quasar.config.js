@@ -1,3 +1,11 @@
+/*====================================================================
+// EU: procure vueRouterMode: 'hash' colocar 'history'
+em extras temos os frames para font e ícones. assim q achar os ícones
+procure no google para poder trocar (aqui é o 'material-icons')
+após procurar no grupo descobre-se outros ícones e seus nomes
+então os tracamos lá no arqv mainLayout no menu
+====================================================================*/
+
 // Configuration for your app
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file
 
@@ -41,7 +49,7 @@ export default defineConfig((/* ctx */) => {
         node: 'node20'
       },
 
-      vueRouterMode: 'hash', // available values: 'hash', 'history'
+      vueRouterMode: 'history', // available values: 'hash', 'history'
       // vueRouterBase,
       // vueDevtools,
       // vueOptionsAPI: false,
